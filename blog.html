@@ -1,0 +1,22 @@
+---
+layout: default
+title: Blog - The Standard Library
+---
+
+<div class="span12">
+    <div class="hero-unit">
+        <h1>Words on a Screen</h1>
+        <p>Updates about the book, if you don't like Twitter and mailing lists</p>
+    </div>
+</div>
+
+<div class="row-fluid">
+    <div class="span4 offset4">
+        <ul>
+            {{ site.host }}
+            {% for post in site.posts %}
+                <li><span>{{ post.date | date_to_long_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+---
+layout: default
+title: New Chapter! The compress Package
+---
+
+h1. {{ page.title }}
+
+hello!
