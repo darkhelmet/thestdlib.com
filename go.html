@@ -1,13 +1,16 @@
 ---
 layout: default
 title: Go, The Standard Library
+price: 39
+pages: 90
+chapters: 7
 ---
 
 <div class="span12">
     <div id="go-hero" class="hero-unit">
-        <h1>Go, The Standard Library</h1>
+        <h1>{{ page.title }}</h1>
         <p>Master the standard library of the Go programming language</p>
-        <p>Only <b>$29</b> <b><a class="btn-large btn-primary" href="http://leanpub.com/go-thestdlib">Buy Now!</a></b></p>
+        <p>Only <b>${{ page.price }}</b> <b><a class="btn-large btn-primary" href="http://leanpub.com/go-thestdlib">Buy Now!</a></b></p>
         <div id="mc_embed_signup">
             <form action="http://thestdlib.us4.list-manage1.com/subscribe/post?u=903c423bf55933a149c74315f&amp;id=ef087cfb5c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
                 <label for="mce-EMAIL">Get updates and other information about this and other books</label>
@@ -24,19 +27,19 @@ title: Go, The Standard Library
         <div id="more-info">
             <h2>About The Book</h2>
             <p>Some smart people working at Google came out with a language called <a href="http://golang.org/">Go</a>, and it's got a wicked awesome standard library. The problem is, the standard library of any language plays second fiddle to the syntax and other libraries that come out on Github</p>
-            <p>With <i>Go, The Standard Library</i>, I give you the tools to take Go by the horns and be productive without installing every library on Github.</p>
+            <p>With <i>{{ page.title }}</i>, I give you the tools to take Go by the horns and be productive without installing every library on Github.</p>
             <p><a href="https://twitter.com/intent/tweet?screen_name=TheStdLib" class="twitter-mention-button" data-size="large" data-related="darkhelmetlive">Tweet to @TheStdLib</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
         </div>
     </div>
     <div class="span6">
         <div id="pricing">
-            <h2>Only <b>$29</b>? Surely you can't be serious</h2>
+            <h2>Only <b>${{ page.price }}</b>? Surely you can't be serious</h2>
             <p><b>I am serious. And don't call me Shirley.</b> Get it now before I change my mind! It's going to be an in depth look at the library of packages that come standard with you Go distribution, and it's a big library.</p>
-            <p><b>Great grandmother's memory allocator! What if I don't want to hand over my hard earned $29?</b></p>
-            <p>If you're not quite ready to part with 29 clams just yet, the <b>entire first chapter</b> is available as a <b><a href="http://samples.leanpub.com/go-thestdlib-sample.pdf">free sample</a></b>. You can also check out the <a href="http://leanpub.com/go-thestdlib">table of contents outline</a> too, which isn't even close to done yet and we're already up to <b>65</b> pages! I mean, you're already at way less than a dollar a page.</p>
+            <p><b>Great grandmother's memory allocator! What if I don't want to hand over my hard earned ${{ page.price }}?</b></p>
+            <p>If you're not quite ready to part with {{ page.price }} clams just yet, <b>two full chapters</b> are available as a <b><a href="http://samples.leanpub.com/go-thestdlib-sample.pdf">{{ page.title }} free sample</a></b>. You can also check out the <a href="http://leanpub.com/go-thestdlib">table of contents outline</a> too, which isn't even close to done yet and we're already up to <b>{{ page.pages }}</b> pages! I mean, you're already at way less than a dollar a page.</p>
             <p>I'm no mathemagician, but that's a pretty solid deal to me.</p>
-            <p>When the book is basically complete, I might even get crazy and raise that price a bit. <a href="http://leanpub.com/go-thestdlib">Buy Now</a>, and lock in your $29, and get <b>free updates forever!</b></p>
+            <p>When the book is basically complete, I might even get crazy and raise that price a bit. <a href="http://leanpub.com/go-thestdlib">Buy Now</a>, and lock in your ${{ page.price }}, and get <b>free updates forever!</b></p>
         </div>
     </div>
 </div>
