@@ -17,4 +17,4 @@ I also included a good real-world example: **Accept-Encoding: gzip**
 
 It looks at building `gzip` support into your webserver. It's super simple thanks to how Go deals with IO.
 
-Anyway, if you want to check it out, [get your copy of Go, The Standard Library](/go.html) now for only **$29**. The book's only getting bigger!
+Anyway, if you want to check it out, [get your copy of Go, The Standard Library](/go.html) now for only **${{ site.go.price }}**. The book's only getting bigger!

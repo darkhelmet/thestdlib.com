@@ -1,3 +1,9 @@
 host: thestandardlibrary.com
 author: Daniel Huckstep
 author_email: darkhelmet@darkhelmetlive.com
+go:
+    price: 39
+    pages: 100
+    chapters: 7
+    total_chapters: 40
+    sample: http://samples.leanpub.com/go-thestdlib-sample.pdf
