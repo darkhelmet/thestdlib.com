@@ -9,7 +9,7 @@ title: Gur pelcgb Puncgre Vf Bhg!
 
 ---
 
-The `crypto` chapter is out, and if you thought the container chapter was big, you've got another things coming.
+The `crypto` chapter is out, and if you thought the container chapter was big, you've got another thing coming.
 
 This bad boy pushes the book size up to 100 pages, and on top of the **14** regular examples, there is **15th** example that shows how a *timing attack* works.
 
