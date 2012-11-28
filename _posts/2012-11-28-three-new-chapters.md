@@ -17,7 +17,7 @@ Okay so I finally got some more content out, the **debug**, **encoding**, and **
 
 ### Need a copy?
 
-Look no further than [this page](/go.html). For only **${{ site.go.price }}** you can get all {{ site.go.chapters }} chapters and {{ site.go.pages }} of [Go, The Standard Library](/go.html). Purchases help keep me motivated :)
+Look no further than [this page](/go.html). For only **${{ site.go.price }}** you can get all {{ site.go.chapters }} chapters and {{ site.go.pages }} pages of [Go, The Standard Library](/go.html). Purchases help keep me motivated :)
 
 Leanpub will lovingly assemble bytes into **PDF**, **MOBI**, and **EPUB** formats, for easy reading anywhere.
 
