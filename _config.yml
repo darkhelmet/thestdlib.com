@@ -4,8 +4,8 @@ author_email: darkhelmet@darkhelmetlive.com
 title: The Standard Library
 go:
     price: 39
-    pages: 163
-    chapters: 14
+    pages: 178
+    chapters: 15
     total_chapters: 40
     title: Go, The Standard Library
     sample: http://samples.leanpub.com/go-thestdlib-sample.pdf
