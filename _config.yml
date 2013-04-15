@@ -9,6 +9,6 @@ go:
     total_chapters: 40
     title: Go, The Standard Library
     sample: http://samples.leanpub.com/go-thestdlib-sample.pdf
-    code: https://github.com/darkhelmet/go-thestdlib/zipball/master
+    code: https://dl.dropboxusercontent.com/u/521811/the-standard-library/go/go-thestdlib.zip
     leanpub: https://leanpub.com/go-thestdlib
 
