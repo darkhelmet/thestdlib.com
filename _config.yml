@@ -3,11 +3,10 @@ author: Daniel Huckstep
 author_email: darkhelmet@darkhelmetlive.com
 title: The Standard Library
 go:
-    price: 39
-    pages: 280
-    chapters: 24
-    total_chapters: 40
+    price: 29
+    pages: 398
+    chapters: 34
+    total_chapters: 38
     title: Go, The Standard Library
     sample: http://samples.leanpub.com/go-thestdlib-sample.pdf
     leanpub: https://leanpub.com/go-thestdlib
-
